@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap");
+.App {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.input {
+  padding: 10px;
+  margin-left: 500px;
+  margin-top: 30px;
+  border-radius: 11px;
+  border: none;
+}
+.button {
+  padding: 1%;
+  border-radius: 11px;
+  background-color: antiquewhite;
+  border: none;
+  margin-left: 3%;
+  font-weight: bold;
+}
+.block {
+  margin-top: 6%;
+  margin-left: 20%;
+  margin-right: 35%;
+  border-color: white;
+}
+
+.home {
+  position: fixed;
+}
+.box {
+  box-shadow: 5px 5px 13px -5px white;
+  border-radius: 25px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding: 1% 3% 3% 4%;
+}
+.box p {
+  color: yellow;
+}
+.box:hover {
+  transition: 2s ease;
+}
+.mask {
+  position: relative;
+  margin-top: 1%;
+}
+.right_bar {
+  margin-left: 80%;
+  margin-top: 10%;
+  margin-right: 2%;
+  position: fixed;
+}
+@media (max-width: 500px) {
+  .right_bar {
+    margin-left: 70%;
+    margin-top: 44%;
+  }
+  .heading h1 {
+    text-align: center;
+  }
+  .input {
+    margin-left: 15%;
+  }
+  .block {
+    margin-left: 3%;
+  }
+  .box p {
+    color: yellow;
+  }
+  .home {
+    margin-left: 200px;
+    width: 120px;
+    height: auto;
+  }
+}
+@media (width: 1024px) {
+  .input {
+    margin-left: 28%;
+  }
+  .box p {
+    color: yellow;
+  }
+}
+@media (width: 540px) {
+  .body {
+    background-position: fixed;
+  }
+  .heading h1 {
+    text-align: center;
+  }
+  .input {
+    margin-left: 14%;
+  }
+  .home {
+    margin-left: 328px;
+    width: 120px;
+    height: auto;
+  }
+  .box p {
+    color: yellow;
+  }
+}
